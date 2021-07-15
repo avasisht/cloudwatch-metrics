@@ -28,7 +28,7 @@ for instance in instances:
             ],
             StartTime=datetime.utcnow() - timedelta(days = 14),
             EndTime=datetime.utcnow(),
-            Period=300,
+            Period=900,
             Statistics=['Average']
             )
 ############### Processing and filtering the data
